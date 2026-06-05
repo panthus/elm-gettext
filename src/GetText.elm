@@ -1,4 +1,28 @@
-module GetText exposing (Translations, default, getLanguage, parser, t, tn, tp, tpn)
+module GetText exposing
+    ( Translations
+    , t, tn, tp, tpn
+    , default, parser, getLanguage
+    )
+
+{-| This library allows you to internationalize (i18n) your Elm application using
+[GNU gettext](https://www.gnu.org/software/gettext/manual/gettext.html) MO/PO files.
+
+
+# Definition
+
+@docs Translations
+
+
+# Translation functions
+
+@docs t, tn, tp, tpn
+
+
+# Helpers
+
+@docs default, parser, getLanguage
+
+-}
 
 import Array
 import Bytes.Decode as D
