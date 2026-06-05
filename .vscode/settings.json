@@ -1,0 +1,8 @@
+{
+  "[elm]": { 
+    "editor.formatOnSave": true,
+  },
+  "editor.rulers": [120],
+  "editor.tabSize": 4,
+  "elmLS.elmTestPath": "./node_modules/.bin/elm-test-rs"
+}
